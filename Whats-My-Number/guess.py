@@ -83,7 +83,7 @@ def last_is_length(guess):
 
 
 def test():
-    all_guess = []
+    all_guess = []  # Creating a list to store all possible guesses in, just in case there happens to be another one after the first
     guess = 11  # Guess is 'between 1 and 1000', but the first requirement needs two digits, and 10 isn't prime, so 11
     while guess < 1000:
         if check_prime(guess) and detect_one_seven(guess) and digit_sum(guess) and first_two_sum(guess) and \
