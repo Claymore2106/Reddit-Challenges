@@ -1,6 +1,6 @@
 # This program is in response to https://www.reddit.com/r/beginnerprojects/comments/1dbena/challenge_whats_my_number/
 # Challenge was posted April 29, 2013
-# Challenge was completed by my on December 23, 2015
+# Challenge was completed by me on December 23, 2015
 
 
 def check_prime(guess):
